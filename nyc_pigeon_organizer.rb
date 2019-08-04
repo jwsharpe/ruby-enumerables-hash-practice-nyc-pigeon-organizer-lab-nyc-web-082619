@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  name_hash = {}
+  name_hash = {{}=>}
   data.each do |attribute, states|
     states.each do |state, names|
       for name in names do
