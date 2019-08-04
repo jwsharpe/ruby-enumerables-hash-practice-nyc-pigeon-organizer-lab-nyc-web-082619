@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
     attribute_hash[attribute] = state_array
     states.each do |state, names|
       for name in names do
+        
         state_array.push(state)
         name_hash[name] = attribute_hash
       end
