@@ -15,15 +15,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  pp name_hash
+  return name_hash
 end
 
-'
-pigeon_list = {
-  "Theo" => {
-    :color => ["purple", "grey"],
-    :gender => ["male"],
-    :lives => ["Subway"]
-  },
-  '
   
