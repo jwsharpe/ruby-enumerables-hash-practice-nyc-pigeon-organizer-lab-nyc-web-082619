@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         if(!name_hash[name][attribute])
           name_hash[name][attribute] = [state.to_s]
         else
-          name_hash[name][attribute].push(state)
+          name_hash[name][attribute].push(state.to_s)
         end
       end
     end
