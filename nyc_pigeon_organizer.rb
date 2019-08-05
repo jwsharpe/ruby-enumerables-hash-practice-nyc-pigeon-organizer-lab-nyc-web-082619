@@ -5,8 +5,8 @@ def nyc_pigeon_organizer(data)
       for name in names do
         if(!hash_name[name])
           hash_name[name] = {attribute: nil}
-        else
-          hash_name[name]
+        end
+          
         if(!name_hash[name][attribute])
           name_hash[name][attribute] = [state]
         else
