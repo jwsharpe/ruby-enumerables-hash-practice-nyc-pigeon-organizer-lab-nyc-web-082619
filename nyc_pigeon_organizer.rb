@@ -3,8 +3,8 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, states|
     states.each do |state, names|
       for name in names do
-        if(!hash_name[name])
-          hash_name[name] = {attribute: nil}
+        if(!name_hash[name])
+          name_hash[name] = {attribute: nil}
         end
           
         if(!name_hash[name][attribute])
